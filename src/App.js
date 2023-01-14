@@ -4,6 +4,8 @@ import Componente from "./components/Componente";
 import './App.css';
 import Propiedades from "./components/Propiedades";
 import Estado from "./components/Estado";
+import RenderizadoCondicional from "./components/RenderizadoCondicional";
+import RenderizadoElemento from "./components/RenderizadoElemento";
 function App() {
   let nombre = "Ileana";
   let auth = false;
@@ -41,6 +43,9 @@ function App() {
         />
         <hr/>
         <Estado/>
+        <hr/>
+        <RenderizadoCondicional/>
+        <RenderizadoElemento/>
       </section>
       </header>
     </div>

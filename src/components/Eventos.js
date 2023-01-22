@@ -124,3 +124,9 @@ export class MasSobreEventos extends Component{
         )
     }
 }
+
+//Comunicación entre componentes 
+/* Comunicación entre un componente padre a uno hijo a través de props
+   Comunicación entre un componente hijo a su padre mediante eventos
+   Comunicación entre componentes no relacionados
+*/

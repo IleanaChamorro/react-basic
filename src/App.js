@@ -7,6 +7,8 @@ import Estado from "./components/Estado";
 import RenderizadoCondicional from "./components/RenderizadoCondicional";
 import RenderizadoElemento from "./components/RenderizadoElemento";
 import {EventosES6, EventosES7, MasSobreEventos} from "./components/Eventos";
+import ComunicacionComponentes from "./components/ComunicacionComponentes";
+
 function App() {
   let nombre = "Ileana";
   let auth = false;
@@ -54,6 +56,8 @@ function App() {
         <EventosES7/>
         <hr/>
         <MasSobreEventos/>
+        <hr/>
+        <ComunicacionComponentes/>
       </section>
       </header>
     </div>

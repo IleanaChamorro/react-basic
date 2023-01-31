@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function ContadorHooks(){
+export default function ContadorHooks(props){
     //destructuracion useState, variable de estado
     //Primer elemento: valor del estado
     //Segundo elemento: método para actualizarlo
@@ -23,8 +23,14 @@ export default function ContadorHooks(){
                 -
             </button>
         </nav>
+        <p>Contador de {props.titulo}</p>
         {/*Mostrar variable de estado */}
         <h3>{contador}</h3>
         </>
     );
+}
+
+//Propiedades por defecto
+ContadorHooks.defaultProps = {
+    titulo: "Clicks",
 }

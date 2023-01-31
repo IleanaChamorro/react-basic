@@ -10,6 +10,7 @@ import {EventosES6, EventosES7, MasSobreEventos} from "./components/Eventos";
 import ComunicacionComponentes from "./components/ComunicacionComponentes";
 import CicloVida from "./components/CicloVida";
 import ContadorHooks from "./components/ContadorHooks";
+import ScrollHooks from "./components/ScrollHooks";
 
 function App() {
   let nombre = "Ileana";
@@ -63,7 +64,9 @@ function App() {
         <hr/>
         <CicloVida/>
         <hr/>
-        <ContadorHooks/>
+        <ContadorHooks titulo="Seguidores" />
+        <hr/>
+        <ScrollHooks/>
       </section>
       </header>
     </div>

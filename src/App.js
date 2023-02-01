@@ -11,6 +11,7 @@ import ComunicacionComponentes from "./components/ComunicacionComponentes";
 import CicloVida from "./components/CicloVida";
 import ContadorHooks from "./components/ContadorHooks";
 import ScrollHooks from "./components/ScrollHooks";
+import RelojHooks from "./components/RelojHooks";
 
 function App() {
   let nombre = "Ileana";
@@ -67,6 +68,8 @@ function App() {
         <ContadorHooks titulo="Seguidores" />
         <hr/>
         <ScrollHooks/>
+        <hr/>
+        <RelojHooks/>
       </section>
       </header>
     </div>

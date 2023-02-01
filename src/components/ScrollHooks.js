@@ -16,6 +16,12 @@ export default function ScrollHooks(){
 
         window.addEventListener("scroll", detectarScroll);
         console.log(scrollY);
+
+        //cuando ya no exista el hook
+        return () => {
+            window.removeEventListener("scroll", detectarScroll);
+            console.log("Fase de desmontaje")
+        }
     });
 
     useEffect(() => {
@@ -27,6 +33,13 @@ export default function ScrollHooks(){
 
     useEffect(() => {
         console.log("Fase de actualización ")
+    });
+
+    useEffect(() => {
+        //al retornar, se cancela lo que se ejecuto en el cuerpo de la función 
+        return () => {
+            console.log("Fase de Desmontaje");
+        }
     })
     return(
         <>

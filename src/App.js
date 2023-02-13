@@ -15,6 +15,7 @@ import RelojHooks from "./components/RelojHooks";
 import AjaxHooks from "./components/AjaxHooks";
 import Referencias from "./components/Referencias";
 import Formularios from "./components/Formularios";
+import ComponentesEstilizados from "./components/ComponentesEstilizados";
 
 function App() {
   let nombre = "Ileana";
@@ -95,6 +96,7 @@ function App() {
         <br/>
         <br/>
         <br/>
+        <ComponentesEstilizados/>
         </section>
       </header>
     </div>
